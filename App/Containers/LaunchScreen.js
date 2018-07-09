@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
 import { ScrollView, Text, Image, View } from 'react-native'
+import DevscreensButton from '../../ignite/DevScreens/DevscreensButton.js'
+import { StackNavigator } from 'react-navigation'
+import * as ReactNavigation from 'react-navigation'
+
 import { Images } from '../Themes'
 
 // Styles
@@ -22,6 +26,7 @@ export default class LaunchScreen extends Component {
             </Text>
           </View>
 
+          <DevscreensButton />
         </ScrollView>
       </View>
     )
